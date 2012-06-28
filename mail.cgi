@@ -19,7 +19,7 @@ cgi = CGI.new
 @mail_to      = "MAIL_TO"
 @mail_from    = "MAIL_FROM"
 @mail_subject = "お問い合わせ"
-@form_url     = "URL" 
+@form_url     = "http://*****.**/mail.cgi" 
 
 #お問い合わせ項目設定
 items = ["お問い合わせ1", "お問い合わせ2", "お問い合わせ3"]
