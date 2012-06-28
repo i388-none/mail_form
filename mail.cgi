@@ -16,10 +16,10 @@ cgi = CGI.new
 #key = Digest::MD5.new.update('131072');
 
 #メール設定
-@mail_to      = "w32.none@gmail.com"
-@mail_from    = "w32.none@sqoox.info"
+@mail_to      = "MAIL_TO"
+@mail_from    = "MAIL_FROM"
 @mail_subject = "お問い合わせ"
-@form_url     = "http://sqoox.info/mail_form/mail.cgi" 
+@form_url     = "URL" 
 
 #お問い合わせ項目設定
 items = ["お問い合わせ1", "お問い合わせ2", "お問い合わせ3"]
